@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header {
+    position: fixed;
+    right: 0;
+    background-color: grey;
+} */
+.home {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 50vw;
+    min-height: 100vh;
+    margin: auto;
+}
+.home h2 {
+    font-size: 3rem;
+}
+
+.school {
+    background-color: darkcyan;
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+}
+.school p {
+    font-size: 20px;
+    font-weight: bold;
+    /* position: absolute;
+    top: 0;
+    left: 0;
+} */
